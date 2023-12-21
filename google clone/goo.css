@@ -1,0 +1,188 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #555;
+}
+  body {
+    height: 100vh;
+    overflow: hidden;
+    background-image: url("C:\\google clone\\google clo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  nav {
+    display: flex;
+    justify-content:space-between;
+    padding: 20px 10px;
+    height: 60px;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    
+  }
+  
+  li {
+    text-align: center;
+    padding: 14px 12px;
+    
+  }
+  
+  a {
+    text-decoration: none;
+    color:#ddd;
+  }
+  
+  li a:hover {
+    text-decoration: underline;
+  }
+  
+  .small-text {
+    font-size: 0.85rem;
+    color:#ddd;
+  }
+  
+  .menu-bg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .menu-bg:hover {
+    background-color: rgba(100, 100, 100, 0.1);
+    cursor: pointer;
+  }
+  .labs
+  {
+    margin-top: 0.5px;
+    border-radius: 50%;
+    width: 100%;
+  }
+  
+  .menu-button {
+    width: 15px;
+  }
+  
+  .profile-pic {
+    margin-top: 6px;
+    border-radius: 50%;
+    width: 20px;
+  }
+  
+  .search-wrapper {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo
+  {
+    width:300px;
+  }
+  form {
+    position: relative;
+    margin-top: 30px;
+  }
+  
+  input {
+    width: 580px;
+    height: 40px;
+    padding-left: 50px;
+    font-size: 1.2rem;
+    border-radius: 45px;
+    border: 1px solid #d3d3d3;
+  }
+  
+  input:hover {
+    box-shadow: 0 1px 3px 1px rgba(201, 201, 201, 0.5);
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  
+  .search {
+    width: 20px;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+  }
+  
+  .mic {
+    width: 20px;
+    position: absolute;
+    top: 12px;
+    left: 500px;
+  }
+  
+  .lens
+  {
+    width: 20px;
+    position: absolute;
+    top: 12px;
+    left: 540px;
+  }
+  .buttons {
+    width: 350px;
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  li {
+    text-decoration: none;
+    list-style: none;
+  }
+  .button {
+    width: 100px;
+    height: 70px;
+  }
+  
+  .button:hover {
+    background-color: rgba(100, 100, 100, 0.1);
+    cursor: pointer;
+  }
+  .store
+  {
+    margin-top: 0.01px;
+    width: 100%;
+  }
+  .shortcut
+  {
+    margin-top: 11.8px;
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+    height:-10px;
+  }
+  
+  .panel {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+  }
+  .panel img{
+    max-width: 175px;
+  }
+  .panel > * {
+    flex-basis: 33%;
+  }
+  .right {
+    justify-content: flex-end;
+  }
+  .right img{
+    width: 40px;
+  }
